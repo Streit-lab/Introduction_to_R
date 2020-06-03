@@ -1,8 +1,17 @@
 ### Alex Thiery - R training for bulk RNAseq
 
+
+Here is a walk-through of the Streit lab R training sessions.
+
+You can download this repository and run these sessions on your local machine by clicking on the "clone or download" button above.
+
+With each session outlined below, you will also find an homework task and corresponding answers. This is a great way to test that you have understood the basic concepts highlighted in the sessions, and that will start to show you how to apply these to RNAseq analysis.
+
 ***
 
 #### Week 1
+
+[Homework](https://github.com/Streit-lab/R_for_bulk_RNAseq/blob/master/week1_homework.R)
 
 ***
 
@@ -170,6 +179,8 @@ test.dataframe[test.dataframe[,4] %in% "Vida", 4]
 ***
 
 #### Week 2
+
+[Homework](https://github.com/Streit-lab/R_for_bulk_RNAseq/blob/master/week2_homework.R)
 
 ***
 ##### In this session we will look at list data structures, and ordering and combining dataframes stored within lists
@@ -355,6 +366,8 @@ all(duplicated(mylist[[1]]$gene_name))
 ***
 
 #### Week 3
+
+[Homework](https://github.com/Streit-lab/R_for_bulk_RNAseq/blob/master/week3_homework.R)
 
 ***
 ##### Today we will work on how to use for loops to combine multiple RNAseq samples together
