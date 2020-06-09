@@ -625,7 +625,7 @@ if(TRUE){
 }
 ```
 
-# we can use if else statements to choose which operation we want to carry out in our custom function
+We can use if else statements to choose which operation we want to carry out in our custom function
 ``` r
 sum.sub <- function(operation, ...){
   if(operation == "subtract"){
