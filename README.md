@@ -12,6 +12,7 @@ With each session outlined below, you will also find an homework task and corres
 #### Week 1
 
 [Homework](https://github.com/Streit-lab/R_for_bulk_RNAseq/blob/master/week1_homework.R)
+[Answers](https://github.com/Streit-lab/R_for_bulk_RNAseq/blob/master/week1_homework_answers.R)
 
 ***
 
@@ -181,6 +182,7 @@ test.dataframe[test.dataframe[,4] %in% "Vida", 4]
 #### Week 2
 
 [Homework](https://github.com/Streit-lab/R_for_bulk_RNAseq/blob/master/week2_homework.R)
+[Answers](https://github.com/Streit-lab/R_for_bulk_RNAseq/blob/master/week2_homework_answers.R)
 
 ***
 ##### In this session we will look at list data structures, and ordering and combining dataframes stored within lists
@@ -368,6 +370,7 @@ all(duplicated(mylist[[1]]$gene_name))
 #### Week 3
 
 [Homework](https://github.com/Streit-lab/R_for_bulk_RNAseq/blob/master/week3_homework.R)
+[Answers](https://github.com/Streit-lab/R_for_bulk_RNAseq/blob/master/week3_homework_answers.R)
 
 ***
 ##### Today we will work on how to use for loops to combine multiple RNAseq samples together
@@ -505,6 +508,7 @@ newdat[,!duplicated(colnames(newdat))]
 #### Week 4
 
 [Homework](https://github.com/Streit-lab/R_for_bulk_RNAseq/blob/master/week4_homework.R)
+[Answers](https://github.com/Streit-lab/R_for_bulk_RNAseq/blob/master/week4_homework_answers.R)
 
 ***
 
@@ -648,7 +652,14 @@ sum.sub(operation = "multiply", 1,2,3,4)
 sum.sub(operation = "sum", 1,2,3,4)
 ```
 
+***
 
+#### Week 5
 
+[Homework](https://github.com/Streit-lab/R_for_bulk_RNAseq/blob/master/week5_homework.R)
+[Answers](https://github.com/Streit-lab/R_for_bulk_RNAseq/blob/master/week5_homework_answers.R)
+
+Week 5 entails putting the tools you have learned together in order to generate a single counts matrix from multiple samples. Work through the homework above and cross-check with the linked answers.
+***
 
 
